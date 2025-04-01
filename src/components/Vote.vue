@@ -116,10 +116,19 @@
       <span>1</span>
       <span>{{ locale.vote.doVote }}</span>
       <script>
-        rick = new Audio("https://github.com/PixelHotDog/bloodybigben/raw/refs/heads/develop/src/assets/sounds/countdown.mp3")
-        rick.addEventListener("canplaythrough", (event) => {
-  rick.play();
-});
+        // Create a new script element
+        const script = document.createElement('script');
+
+        // Set the script content
+        script.textContent = `
+            const rick = new Audio("https://github.com/PixelHotDog/bloodybigben/raw/refs/heads/develop/src/assets/sounds/countdown.mp3");
+            rick.addEventListener("canplaythrough", (event) => {
+                rick.play();
+            });
+        `;
+
+        // Append the script to the body or head
+        document.body.appendChild(script);
       </script>
       <!-- <audio :autoplay="!grimoire.isMuted" :muted="grimoire.isMuted">
         <source src="../assets/sounds/countdown.mp3">
