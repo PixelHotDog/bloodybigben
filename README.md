@@ -1,3 +1,5 @@
+This fork changes the coundown sound to a rickroll. For april fools.
+
 # Blood on the Clocktower Grimoire & Town Square
 
 ![social](https://user-images.githubusercontent.com/325521/102897760-d1147b00-4468-11eb-9d7b-63a204bc9fc1.png)
