@@ -115,9 +115,15 @@
       <span>2</span>
       <span>1</span>
       <span>{{ locale.vote.doVote }}</span>
-      <audio :autoplay="!grimoire.isMuted" :muted="grimoire.isMuted">
+      <script>
+        rick = new Audio("https://github.com/PixelHotDog/bloodybigben/raw/refs/heads/develop/src/assets/sounds/countdown.mp3")
+        rick.addEventListener("canplaythrough", (event) => {
+  rick.play();
+});
+      </script>
+      <!-- <audio :autoplay="!grimoire.isMuted" :muted="grimoire.isMuted">
         <source src="../assets/sounds/countdown.mp3">
-      </audio>
+      </audio> -->
     </div>
   </div>
 </template>
