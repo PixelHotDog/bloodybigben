@@ -1,4 +1,4 @@
-This fork changes the coundown sound to a rickroll. For april fools.
+This fork changes the coundown sound to a rickroll. For april fools. :3
 
 # Blood on the Clocktower Grimoire & Town Square
 
